@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>UI page</title>
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap-datetimepicker.js"></script>
+	<script type="text/javascript" src="js/bootstrap-datetimepicker.min.js"></script>
+</head>
+<body>
+	<div class="wrapper-button">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2 btn-margin-bottom">
+					<button type="button" class="btn btn-normal">normal</button>
+				</div>
+				<div class="col-lg-2 btn-margin-bottom">
+					<button type="button" class="btn btn-normal">hover</button>
+				</div>
+				<div class="col-lg-2 btn-margin-bottom">
+					<button type="button" class="btn btn-normal">pressed</button>
+				</div>
+				<div class="col-lg-2 btn-margin-bottom">
+					<button type="button" class="btn btn-default">normal</button>
+				</div>
+				<div class="col-lg-2 btn-margin-bottom">
+					<button type="button" class="btn btn-default">hover</button>
+				</div>
+				<div class="col-lg-2 btn-margin-bottom">
+					<button type="button" class="btn btn-default">pressed</button>
+				</div>
+				<div class="col-lg-2 btn-margin-bottom">
+					<button type="button" class="btn btn-primary">normal</button>
+				</div>
+				<div class="col-lg-2 btn-margin-bottom">
+					<button type="button" class="btn btn-primary">hover</button>
+				</div>
+				<div class="col-lg-2 btn-margin-bottom">
+					<button type="button" class="btn btn-primary">pressed</button>
+				</div>
+				<div class="col-lg-2 btn-margin-bottom">
+					<button type="button" class="btn btn-success">normal</button>
+				</div>
+				<div class="col-lg-2 btn-margin-bottom">
+					<button type="button" class="btn btn-success">hover</button>
+				</div>
+				<div class="col-lg-2 btn-margin-bottom">
+					<button type="button" class="btn btn-success">pressed</button>
+				</div>
+				<div class="col-lg-2 btn-margin-bottom">
+					<button type="button" class="btn btn-info">normal</button>
+				</div>
+				<div class="col-lg-2 btn-margin-bottom">
+					<button type="button" class="btn btn-info">hover</button>
+				</div>
+				<div class="col-lg-2 btn-margin-bottom">
+					<button type="button" class="btn btn-info">pressed</button>
+				</div>
+				<div class="col-lg-2 btn-margin-bottom">
+					<button type="button" class="btn btn-warning">normal</button>
+				</div>
+				<div class="col-lg-2 btn-margin-bottom">
+					<button type="button" class="btn btn-warning">hover</button>
+				</div>
+				<div class="col-lg-2 btn-margin-bottom">
+					<button type="button" class="btn btn-warning">pressed</button>
+				</div>
+				<div class="col-lg-2 btn-margin-bottom">
+					<button type="button" class="btn btn-danger">normal</button>
+				</div>
+				<div class="col-lg-2 btn-margin-bottom">
+					<button type="button" class="btn btn-danger">hover</button>
+				</div>
+				<div class="col-lg-2 btn-margin-bottom">
+					<button type="button" class="btn btn-danger">pressed</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Single button -->
+	<div class="container btn-margin-bottom">
+		<div class="btn-group">
+		  <button type="button" class="btn btn-normal btn-lg dropdown-toggle" data-toggle="dropdown">normal <span class="caret"></span></button>
+		  <ul class="dropdown-menu" role="menu">
+		    <li><a href="#">Действие</a></li>
+		    <li><a href="#">Другое действие</a></li>
+		    <li><a href="#">Что-то иное</a></li>
+		    <li class="divider"></li>
+		    <li><a href="#">Отдельная ссылка</a></li>
+		  </ul>
+		</div>
+		<div class="btn-group">
+		  <button type="button" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown">default <span class="caret"></span></button>
+		  <ul class="dropdown-menu" role="menu">
+		    <li><a href="#">Действие</a></li>
+		    <li><a href="#">Другое действие</a></li>
+		    <li><a href="#">Что-то иное</a></li>
+		    <li class="divider"></li>
+		    <li><a href="#">Отдельная ссылка</a></li>
+		  </ul>
+		</div>
+		<div class="btn-group">
+		  <button type="button" class="btn btn-primary btn-lg dropdown-toggle" data-toggle="dropdown">primary <span class="caret"></span></button>
+		  <ul class="dropdown-menu" role="menu">
+		    <li><a href="#">Действие</a></li>
+		    <li><a href="#">Другое действие</a></li>
+		    <li><a href="#">Что-то иное</a></li>
+		    <li class="divider"></li>
+		    <li><a href="#">Отдельная ссылка</a></li>
+		  </ul>
+		</div>
+		<div class="btn-group">
+		  <button type="button" class="btn btn-success btn-lg dropdown-toggle" data-toggle="dropdown">success <span class="caret"></span></button>
+		  <ul class="dropdown-menu" role="menu">
+		    <li><a href="#">Действие</a></li>
+		    <li><a href="#">Другое действие</a></li>
+		    <li><a href="#">Что-то иное</a></li>
+		    <li class="divider"></li>
+		    <li><a href="#">Отдельная ссылка</a></li>
+		  </ul>
+		</div>
+		<div class="btn-group">
+		  <button type="button" class="btn btn-info btn-lg dropdown-toggle" data-toggle="dropdown">info <span class="caret"></span></button>
+		  <ul class="dropdown-menu" role="menu">
+		    <li><a href="#">Действие</a></li>
+		    <li><a href="#">Другое действие</a></li>
+		    <li><a href="#">Что-то иное</a></li>
+		    <li class="divider"></li>
+		    <li><a href="#">Отдельная ссылка</a></li>
+		  </ul>
+		</div>
+		<div class="btn-group">
+		  <button type="button" class="btn btn-warning btn-lg dropdown-toggle" data-toggle="dropdown">warning <span class="caret"></span></button>
+		  <ul class="dropdown-menu" role="menu">
+		    <li><a href="#">Действие</a></li>
+		    <li><a href="#">Другое действие</a></li>
+		    <li><a href="#">Что-то иное</a></li>
+		    <li class="divider"></li>
+		    <li><a href="#">Отдельная ссылка</a></li>
+		  </ul>
+		</div>
+		<div class="btn-group">
+		  <button type="button" class="btn btn-danger btn-lg dropdown-toggle" data-toggle="dropdown">danger <span class="caret"></span></button>
+		  <ul class="dropdown-menu" role="menu">
+		    <li><a href="#">Действие</a></li>
+		    <li><a href="#">Другое действие</a></li>
+		    <li><a href="#">Что-то иное</a></li>
+		    <li class="divider"></li>
+		    <li><a href="#">Отдельная ссылка</a></li>
+		  </ul>
+		</div>
+	</div>
+	<!-- Split button -->
+	<div class="container btn-margin-bottom">
+		<div class="btn-group">
+		  <button type="button" class="btn btn-normal btn-lg">normal</button>
+		  <button type="button" class="btn btn-normal dropdown-toggle" data-toggle="dropdown">
+		 <span class="caret"></span>
+		 <span class="sr-only">Меню с переключением</span>
+		 </button>
+		  <ul class="dropdown-menu" role="menu">
+		    <li><a href="#">Действие</a></li>
+		    <li><a href="#">Другое действие</a></li>
+		    <li><a href="#">Что-то иное</a></li>
+		    <li class="divider"></li>
+		    <li><a href="#">Отдельная ссылка</a></li>
+		  </ul>
+		</div>
+		<div class="btn-group">
+		  <button type="button" class="btn btn-default btn-lg">default</button>
+		  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+		 <span class="caret"></span>
+		 <span class="sr-only">Меню с переключением</span>
+		 </button>
+		  <ul class="dropdown-menu" role="menu">
+		    <li><a href="#">Действие</a></li>
+		    <li><a href="#">Другое действие</a></li>
+		    <li><a href="#">Что-то иное</a></li>
+		    <li class="divider"></li>
+		    <li><a href="#">Отдельная ссылка</a></li>
+		  </ul>
+		</div>
+		<div class="btn-group">
+		  <button type="button" class="btn btn-primary btn-lg">primary</button>
+		  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+		 <span class="caret"></span>
+		 <span class="sr-only">Меню с переключением</span>
+		 </button>
+		  <ul class="dropdown-menu" role="menu">
+		    <li><a href="#">Действие</a></li>
+		    <li><a href="#">Другое действие</a></li>
+		    <li><a href="#">Что-то иное</a></li>
+		    <li class="divider"></li>
+		    <li><a href="#">Отдельная ссылка</a></li>
+		  </ul>
+		</div>
+		<div class="btn-group">
+		  <button type="button" class="btn btn-succes btn-lg">success</button>
+		  <button type="button" class="btn btn-succes dropdown-toggle" data-toggle="dropdown">
+		 <span class="caret"></span>
+		 <span class="sr-only">Меню с переключением</span>
+		 </button>
+		  <ul class="dropdown-menu" role="menu">
+		    <li><a href="#">Действие</a></li>
+		    <li><a href="#">Другое действие</a></li>
+		    <li><a href="#">Что-то иное</a></li>
+		    <li class="divider"></li>
+		    <li><a href="#">Отдельная ссылка</a></li>
+		  </ul>
+		</div>
+		<div class="btn-group">
+		  <button type="button" class="btn btn-info btn-lg">info</button>
+		  <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+		 <span class="caret"></span>
+		 <span class="sr-only">Меню с переключением</span>
+		 </button>
+		  <ul class="dropdown-menu" role="menu">
+		    <li><a href="#">Действие</a></li>
+		    <li><a href="#">Другое действие</a></li>
+		    <li><a href="#">Что-то иное</a></li>
+		    <li class="divider"></li>
+		    <li><a href="#">Отдельная ссылка</a></li>
+		  </ul>
+		</div>
+		<div class="btn-group">
+		  <button type="button" class="btn btn-warning btn-lg">warning</button>
+		  <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
+		 <span class="caret"></span>
+		 <span class="sr-only">Меню с переключением</span>
+		 </button>
+		  <ul class="dropdown-menu" role="menu">
+		    <li><a href="#">Действие</a></li>
+		    <li><a href="#">Другое действие</a></li>
+		    <li><a href="#">Что-то иное</a></li>
+		    <li class="divider"></li>
+		    <li><a href="#">Отдельная ссылка</a></li>
+		  </ul>
+		</div>
+		<div class="btn-group">
+		  <button type="button" class="btn btn-danger btn-lg">danger</button>
+		  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+		 <span class="caret"></span>
+		 <span class="sr-only">Меню с переключением</span>
+		 </button>
+		  <ul class="dropdown-menu" role="menu">
+		    <li><a href="#">Действие</a></li>
+		    <li><a href="#">Другое действие</a></li>
+		    <li><a href="#">Что-то иное</a></li>
+		    <li class="divider"></li>
+		    <li><a href="#">Отдельная ссылка</a></li>
+		  </ul>
+		</div>
+	</div>
+	<!-- Time line -->
+	<div class="container btn-margin-bottom">
+	    <div class="row">
+            <h2>Timeline</h2>
+            <div class="timeline">
+                <span class="timeline-label">
+                    <span class="label label-primary">Apr 2014</span>
+                </span>
+
+                <div class="timeline-item">
+                    <div class="transparent">
+                        <div class="timeline-footer">
+                            <p class="text-right text-primary">Apr 14</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-point timeline-point-primary">
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <div class="timeline-event timeline-event-default">
+                        <div class="timeline-body">
+                        	<div class="timeline-photo pull-left">
+	                        	<div class="photo"><img src="image/img1-timeline.jpg"></div>
+	                        </div>
+	                        <div class="timeline-article">
+	                        	<span><b>Bootstrap</b></span>
+	                            <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache.</p>
+	                        </div>
+	                    </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-point timeline-point-primary">
+                        <i class="fa fa-star"></i>
+                    </div>
+          			<div class="timeline-event timeline-event-default">
+                        <div class="timeline-body">
+                        	<div class="timeline-photo pull-left">
+	                        	<div class="photo"><img src="image/img2-timeline.jpg"></div>
+	                        </div>
+	                        <div class="timeline-article">
+	                        	<span><b>Bootsflat</b></span>
+	                            <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache.</p>
+	                        </div>
+	                    </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="transparent">
+                        <div class="timeline-footer">
+                            <p class="text-left text-primary">Apr 10</p>
+                        </div>
+                    </div>
+                </div>
+
+				<span class="timeline-label">
+                    <span class="label label-primary">Mar 2014</span>
+                </span>
+
+                <div class="timeline-item">
+                    <div class="transparent">
+                        <div class="timeline-footer">
+                            <p class="text-right text-primary">Mar 15</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-point timeline-point-primary">
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <div class="timeline-event timeline-event-default">
+                        <div class="timeline-body">
+                        	<div class="timeline-photo pull-left">
+	                        	<div class="photo"><img src="image/img3-timeline.jpg"></div>
+	                        </div>
+	                        <div class="timeline-article">
+	                        	<span><b>Flat UI</b></span>
+	                            <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache.</p>
+	                        </div>
+	                    </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-point timeline-point-primary">
+                        <i class="fa fa-star"></i>
+                    </div>
+          			<div class="timeline-event timeline-event-default">
+                        <div class="timeline-body">
+                        	<div class="timeline-photo pull-left">
+	                        	<div class="photo"><img src="image/img4-timeline.jpg"></div>
+	                        </div>
+	                        <div class="timeline-article">
+	                        	<span><b>UI design</b></span>
+	                            <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache.</p>
+	                        </div>
+	                    </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="transparent">
+                        <div class="timeline-footer">
+                            <p class="text-left text-primary">Mar 8</p>
+                        </div>
+                    </div>
+                </div>
+         	</div>
+        </div>
+	</div>
+	<!-- Calendar -->
+	<div class="container btn-margin-bottom">
+		<div style="overflow:hidden;">
+		    <div class="form-group">
+		        <div class="row">
+		            <div class="col-md-12">
+		                <div id="datetimepicker12"></div>
+		            </div>
+		        </div>
+		    </div>
+		    <script type="text/javascript">
+		        $(function () {
+		            $('#datetimepicker12').datetimepicker({
+		                inline: true,
+		                sideBySide: false
+		            });
+		        });
+		    </script>
+	    </div>
+	</div>
+	<!-- Pricing -->
+	<div class="container btn-margin-bottom">
+		<div class="pricing-table" class="clear">
+		    <div class="plan">
+		        <div class="pricing-header bg-primary">
+		        	<h3>$599</h3>
+		        	<p>per month</p>
+		        </div>
+		        <div class="pricing-content bg-primary-lighten">
+		        	<p><b>Basic</b><br>Lots of clients & users</p>
+		        	<ul class="border-primary">
+			            <li><b>10GB</b> Disk Space</li>
+			            <li><b>100GB</b> Monthly Bandwidth</li>
+			            <li><b>20</b> Email Accounts</li>
+			        </ul>
+			    </div>
+		        <div class="pricing-footer">
+		        	<button class="btn btn-primary btn-lg" type="button">Try a week</button>
+		        </div>
+		    </div>
+		    <div class="plan most-popular">
+		        <div class="pricing-header bg-success">
+		        	<h3>$599</h3>
+		        	<p>per month</p>
+		        </div>
+		        <div class="pricing-content bg-success-lighten">
+		        	<p><b>Basic</b><br>Lots of clients & users</p>
+		        	<ul class="border-success">
+			            <li><b>10GB</b> Disk Space</li>
+			            <li><b>100GB</b> Monthly Bandwidth</li>
+			            <li><b>20</b> Email Accounts</li>
+			        </ul>
+			    </div>
+		        <div class="pricing-footer">
+		        	<button class="btn btn-success btn-lg" type="button">Try a week</button>
+		        </div>
+		    </div>
+		   	<div class="plan">
+		        <div class="pricing-header bg-warning">
+		        	<h3>$499</h3>
+		        	<p>per month</p>
+		        </div>
+		        <div class="pricing-content bg-warning-lighten">
+		        	<p><b>Basic</b><br>Lots of clients & users</p>
+		        	<ul class="border-warning">
+			            <li><b>10GB</b> Disk Space</li>
+			            <li><b>100GB</b> Monthly Bandwidth</li>
+			            <li><b>20</b> Email Accounts</li>
+			        </ul>
+			    </div>
+		        <div class="pricing-footer">
+		        	<button class="btn btn-warning btn-lg" type="button">Try a week</button>
+		        </div>
+		    </div>
+		</div>
+	</div>
+</body>
+</html>
